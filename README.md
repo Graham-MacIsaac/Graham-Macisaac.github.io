@@ -2,7 +2,7 @@ I am a UX Researcher who uses my background in data science and statistics to ad
 
 My specialty is pulling together the right type of qualitative and quantitative data to tell a concise, compelling story to stakeholders at all levels. Whether its collaborating with executives on direct marketing communications strategy, with engineering to create effective help documentation, or with product to test the effectiveness of a new feature. From literature reviews and user interviews to prototyping and data analytics, I am prepared to pivot to whatever needs to be done in the research process.
 
-I helped found a data science convention, <a href= 'http://www.iidata.net/'>iidata</a>, and also enjoy long walks on the beach. You can click here for my <a href="https://www.linkedin.com/in/graham-m-smith/">Linkedin</a>, here for my <a href="https://dribbble.com/GrayMac">Dribbble</a> and here for my <a href="https://github.com/Graym4c">Github</a>
+You can check out my <a href="https://www.linkedin.com/in/graham-m-smith/">Linkedin</a>, my <a href="https://dribbble.com/GrayMac">Dribbble</a> and my <a href="https://github.com/Graym4c">Github</a> if you'd like to learn more. I also helped found a data science convention, <a href= 'http://www.iidata.net/'>iidata</a>, and also enjoy long walks on the beach. 
 
 ### Research Case Studies ###
 
