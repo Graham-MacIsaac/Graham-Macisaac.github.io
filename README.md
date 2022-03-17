@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <div>
-	<div>Graham Smith</div>
+<h1>Graham MacIsaac Smith: A Portfolio</h1>
+	
 I am a UX Researcher who uses my background in data science and statistics to add rigor to UX Research. I'm passionate about design and system-based solutions.
 
 My specialty is pulling together the right type of qualitative and quantitative data to tell a concise, compelling story to stakeholders at all levels. Whether its collaborating with executives on direct marketing communications strategy, with engineering to create effective help documentation, or with product to test the effectiveness of a new feature. From literature reviews and user interviews to prototyping and data analytics, I am prepared to pivot to whatever needs to be done in the research process.
