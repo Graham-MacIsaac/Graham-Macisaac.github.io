@@ -1,6 +1,3 @@
----
-layout: default
----
 <body>
 <div>
 <h1>Graham MacIsaac Smith: A Portfolio</h1>
