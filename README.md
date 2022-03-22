@@ -1,4 +1,5 @@
 <body>
+<body style="margin:0;padding:20%">
 <div>
 <h1>Graham MacIsaac Smith: A Portfolio</h1>
 	
