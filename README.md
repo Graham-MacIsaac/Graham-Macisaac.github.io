@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-<!DOCTYPE html>
 <body>
 <div>
 <h1>Graham MacIsaac Smith: A Portfolio</h1>
@@ -45,4 +44,4 @@ You can check out my <a href="https://www.linkedin.com/in/graham-m-smith/">Linke
 <center>paste('graham.macisaac09', '@', 'gmail.com', sep='')
 <center>paste('408', '835', '2947', sep='')
 <center>https://www.linkedin.com/in/graham-m-smith/
-	</body>
+</body>
