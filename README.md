@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<body style="background-color:grey;">
 <div>
 <h1>Graham MacIsaac Smith: A Portfolio</h1>
 	
