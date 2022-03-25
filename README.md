@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <body>
 <body style="margin:0;padding:20%">
 <div>
