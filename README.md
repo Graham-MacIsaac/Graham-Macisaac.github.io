@@ -14,7 +14,7 @@ My specialty is pulling together the right type of qualitative and quantitative 
 You can check out my <a href="https://www.linkedin.com/in/graham-m-smith/">Linkedin</a>, my <a href="https://dribbble.com/GrayMac">Dribbble</a> and my <a href="https://github.com/Graym4c">Github</a> if you'd like to learn more. I helped found a data science convention, <a href= 'http://www.iidata.net/'>iidata</a>, and also enjoy long walks on the beach. 
 </div>
 
-<center><h2>UX Case Studies</h2></center>
+<center><h2>UXR Case Studies</h2></center>
 
 <ol>
 <li><a href='https://github.com/Graham-MacIsaac/Graham-Macisaac.github.io/blob/main/SFMTA%20Seamless%20Case%20Study.pdf'>Seamless Bay Area</a></li>
@@ -23,7 +23,7 @@ You can check out my <a href="https://www.linkedin.com/in/graham-m-smith/">Linke
 
 <center><h2>Coding Projects:</h2></center>
 	
-<center><h3>Undergraduate Class Projects:</h3></center>
+<center><h3>Undergraduate Projects:</h3></center>
 <ul>
 <li><a href='https://github.com/Graym4c/Graym4c.github.io/blob/master/assignment4.ipynb'>API's and Model Construction</a></li>
 <li><a href='https://github.com/Graym4c/Graym4c.github.io/blob/master/assignment5.ipynb'>Web Scraping and Natural Language Processing</a></li>
