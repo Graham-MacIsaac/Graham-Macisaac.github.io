@@ -17,7 +17,7 @@ You can check out my <a href="https://www.linkedin.com/in/graham-m-smith/">Linke
 <center><h2>UX Case Studies</h2></center>
 
 <ol>
-<li><a href='https://github.com/Graym4c/Graym4c.github.io/blob/master/assignment%20seis.ipynb'>Seamless Bay Area</a></li>
+<li><a href='https://github.com/Graham-MacIsaac/Graham-Macisaac.github.io/blob/main/SFMTA%20Seamless%20Case%20Study.pdf'>Seamless Bay Area</a></li>
 <li><a href='https://palautatan.github.io/project141b/'>SaaS Compliance Automation Company</a></li>
 </ol>
 
