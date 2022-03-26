@@ -25,10 +25,10 @@ You can check out my <a href="https://www.linkedin.com/in/graham-m-smith/">Linke
 	
 <center><h3>Undergraduate Class Projects:</h3></center>
 <ul>
-<li><a href='https://github.com/Graym4c/Graym4c.github.io/blob/master/assignment4.ipynb'>Assignment 4: API's and Model Construction</a></li>
-<li><a href='https://github.com/Graym4c/Graym4c.github.io/blob/master/assignment5.ipynb'>Assignment 5: Web Scraping and Natural Language Processing</a></li>
-<li><a href='https://github.com/Graym4c/Graym4c.github.io/blob/master/assignment%20seis.ipynb'>Assignment 6: SQL and Domestic Violence Arrest Rate Inconsistencies in San Francisco</a></li>
-<li><a href='https://palautatan.github.io/project141b/'>Final Project: White House Petitions Classifier</a></li>
+<li><a href='https://github.com/Graym4c/Graym4c.github.io/blob/master/assignment4.ipynb'>API's and Model Construction</a></li>
+<li><a href='https://github.com/Graym4c/Graym4c.github.io/blob/master/assignment5.ipynb'>Web Scraping and Natural Language Processing</a></li>
+<li><a href='https://github.com/Graym4c/Graym4c.github.io/blob/master/assignment%20seis.ipynb'>SQL and Domestic Violence Arrest Rate Inconsistencies in San Francisco</a></li>
+<li><a href='https://palautatan.github.io/project141b/'>White House Petitions Classifier</a></li>
 <li><a href='https://github.com/STA160/mainProject/blob/master/FinalReport.pdf'>Linguistic Partisanship Analysis of US Legislators</a></li>
 </ul>
 <center><h3>Other Projects:</h3></center>
