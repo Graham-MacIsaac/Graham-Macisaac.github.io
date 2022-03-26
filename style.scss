@@ -3,3 +3,7 @@ layout: default
 ---
 
 @import "{{ site.theme }}";
+
+body {
+    max-width: 400px;
+}
