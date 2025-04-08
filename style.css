@@ -67,7 +67,7 @@ body {
 
 @media (max-width: 768px) {
     .navbar {
-        display: flex; /* Flexbox for layout */
+        display: flex;
         width: 90%;
         margin: 10px auto;
         justify-content: space-between; /* Space between left and right sections */
@@ -119,7 +119,6 @@ body {
     gap: 20px;
 }
 
-/* Add this media query for mobile devices */
 @media (max-width: 768px) {
     .hero {
         flex-direction: column; /* Switch to column layout */
@@ -151,6 +150,13 @@ body {
     line-height: 1.6;
     margin-bottom: 80px
 }
+
+@media (max-width: 768px) {
+    .content p {
+        margin: 20px;
+    }
+}
+
 .company_logos {
     display: flex;
     max-width: fit-content;
@@ -165,6 +171,12 @@ body {
         flex-direction: column; /* Switch to column layout */
         align-items: center; /* Center items horizontally */
         gap: 30px; /* Adjust spacing for smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .proj_cards{
+        margin: 20px;
     }
 }
 
