@@ -206,7 +206,7 @@ a {
   border-style: solid;
   border-left-width: 0px;
   justify-content: flex-start; /* Align content to the left horizontally */
-  align-items: flex-start; /* Align content to the top vertically */
+  align-items: start; /* Align content to the top vertically */
   text-align: left; /* Ensure text inside is left-aligned */
   box-sizing: border-box;
 }
