@@ -175,6 +175,14 @@ a {
   }
 }
 
+.case_study_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.case_study_img_box {
+
+}
 .proj {
   margin-bottom: 8px;
 }
