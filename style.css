@@ -1,17 +1,12 @@
 :root {
-  --tan: #FFFFFF;
+  --white: #FFFFFF;
+  --tan: #D6C2B0;
+  --gray: #F2F2F2;
   --black: #2a2929;
-  --white: #fff;
-  --green: #13402f;
   --orange: #ff5c27;
-  --burgundy_dark: #3f0013;
-  --burgundy_light: #6e3d4a;
-  --sky_blue_dark: #464f68;
-  --sky_blue_medium: #707589;
-  --sky_blue_light: #b7b2c8;
-  --green_dark: #5f5420;
-  --green_medium: #867c54;
-  --green_light: #ada286;
+  --pink: #D97689;
+  --green: #84A86C;
+  --purple: #A87094;
   --main: "Nebula Sans", serif;
   --heading: "Nebula Sans", serif;
   --mono: "Nebula Sans", serif;
@@ -38,7 +33,7 @@ body {
   margin: 0 auto;
   font-family: Lato, sans-serif;
   font-size: 1.2rem;
-  background-color: var(--tan);
+  background-color: var(--white);
   color: var(--black);
 }
 
@@ -180,122 +175,20 @@ a {
   flex-direction: column;
 }
 
-.case_study_img_box {
+.case_study_img_box_tan {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  color: var(--tan);
+}
 
-}
-.proj {
-  margin-bottom: 8px;
-}
-
-.proj h2 {
-  margin: 0 auto;
-}
-.proj_1st_row {
+.case_study_text{
   display: flex;
-  align-items: left;
-  color: var(--black);
-  font-size: var(--h5);
-}
-.proj_1st_row .left-cell {
-  padding: 15px;
-  justify-content: flex-start; /* Align content to the left */
-  border-color: var(--burgundy_light);
-  border-width: 4px;
-  border-style: solid;
-  align-items: flex-start; /* Center vertically */
-  text-align: left; /* Ensure text is left-aligned */
-}
-.proj_1st_row .middle-cell {
-  display: flex;
-  flex-direction: column; /* Stack content vertically */
-  padding: 15px;
-  border-color: var(--burgundy_light);
-  border-width: 4px;
-  border-style: solid;
-  border-left-width: 0px;
-  justify-content: flex-start; /* Align content to the left horizontally */
-  align-items: start; /* Align content to the top vertically */
-  text-align: left; /* Ensure text inside is left-aligned */
-  box-sizing: border-box;
-}
-.proj_2nd_row {
-  display: flex;
-  align-items: stretch;
-  color: var(--black);
-  font-size: var(--h5);
-}
-.proj_2nd_row .left-cell {
-  padding: 15px;
-  justify-content: flex-start; /* Align content to the left */
-  align-items: left; /* Center vertically */
-  text-align: left; /* Ensure text is left-aligned */
-  border-color: var(--sky_blue_medium);
-  border-width: 4px;
-  border-style: solid;
-}
-.proj_2nd_row .middle-cell {
-  display: flex;
-  padding: 15px;
-  justify-content: center; /* Align content to the left */
-  flex-direction: column;
-  align-items: right; /* Center vertically */
-  text-align: left; /* Ensure text is left-aligned */
-  border-color: var(--sky_blue_medium);
-  border-width: 4px;
-  border-style: solid;
-  border-left-width: 0px;
-}
-.proj_2nd_row .right-cell {
-  display: flex;
-  flex-direction: column;
-  padding: 15px;
-  min-width: 10%;
-  justify-content: center; /* Align content to the left */
-  align-items: center; /* Center vertically */
-  text-align: left; /* Ensure text is left-aligned */
-  border-color: var(--sky_blue_medium);
-  border-width: 4px;
-  border-style: solid;
-  border-left-width: 0px;
-}
-.proj_3rd_row {
-  display: flex;
-  align-items: stretch;
-  color: var(--black);
-  margin-bottom: 100px;
-  font-size: var(--h5);
-}
-.proj_3rd_row .left-cell {
-  padding: 15px;
-  border-color: var(--green_light);
-  border-width: 4px;
-  border-style: solid;
-}
-.proj_3rd_row .middle-cell {
-  display: flex;
-  flex-direction: column;
-  padding: 15px;
-  min-width: 15%;
-  border-color: var(--green_light);
-  border-width: 4px;
-  border-left-width: 0px;
-  border-style: solid;
-  justify-content: center; /* Align content to the left */
-  align-items: left; /* Center vertically */
-  text-align: left; /* Ensure text is left-aligned */
-}
-.proj_3rd_row .right-cell {
-  display: flex;
-  flex-direction: column;
-  padding: 15px;
-  min-width: 15%;
-  border-color: var(--green_light);
-  border-width: 4px;
-  border-left-width: 0px;
-  border-style: solid;
-  justify-content: center; /* Align content to the left */
-  align-items: left; /* Center vertically */
-  text-align: left; /* Ensure text is left-aligned */
+  justify-content:left;
+  align-items:center;
+  color: var(--gray);
 }
 
 .personal_section {
