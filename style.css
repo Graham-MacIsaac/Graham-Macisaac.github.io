@@ -180,8 +180,8 @@ a {
 
 @media (max-width: 768px) {
   .case_study_container {
+    flex-direction: column;
     margin-left: 20px;
-    margin-right: 20px;
   }
 }
 
@@ -194,6 +194,17 @@ a {
   background-color: var(--tan);
 }
 
+@media (max-width: 768px) {
+  .case_study_img_box_tan {
+    display: flex;
+    height: 400px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--tan);
+  }
+}
+
 .case_study_img_box_pink {
   display: flex;
   height: 400px;
@@ -201,6 +212,17 @@ a {
   justify-content: center;
   align-items: center;
   background-color: var(--pink);
+}
+
+@media (max-width: 768px) {
+  .case_study_img_box_pink {
+    display: flex;
+    height: 400px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--pink);
+  }
 }
 
 .case_study_img_box_green {
@@ -212,6 +234,17 @@ a {
   background-color: var(--green);
 }
 
+@media (max-width: 768px) {
+  .case_study_img_box_green {
+    display: flex;
+    height: 400px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--green);
+  }
+}
+
 .case_study_img_box_purple {
   display: flex;
   height: 400px;
@@ -221,6 +254,17 @@ a {
   background-color: var(--purple);
 }
 
+@media (max-width: 768px) {
+  .case_study_img_box_purple {
+    display: flex;
+    height: 400px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--purple);
+  }
+}
+
 .case_study_img_box_blue {
   display: flex;
   height: 400px;
@@ -228,6 +272,17 @@ a {
   justify-content: center;
   align-items: center;
   background-color: var(--blue);
+}
+
+@media (max-width: 768px) {
+  .case_study_img_box_blue {
+    display: flex;
+    height: 400px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue);
+  }
 }
 
 .case_study_text{
@@ -240,6 +295,22 @@ a {
   justify-content:center;
   align-items:left;
   background-color: var(--gray);
+}
+
+@media (max-width: 768px) {
+  .case_study_text {
+    display: flex;
+    width: 90%;
+    box-sizing: border-box; /* Include padding and border in width calculations */
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    flex-direction: column;
+    justify-content:center;
+    align-items:left;
+    background-color: var(--gray);
+  }
 }
 
 .personal_section {
