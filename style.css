@@ -313,7 +313,24 @@ a {
   }
 }
 
-.personal_section {
+.personal_section_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .personal_section_top {
+    flex-direction: column; /* Switch to column layout */
+    align-items: center; /* Center items horizontally */
+    gap: 30px; /* Adjust spacing for smaller screens */
+    padding-bottom: 20px;;
+  }
+}
+
+.personal_section_bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -321,8 +338,8 @@ a {
 }
 
 @media (max-width: 768px) {
-  .personal_section {
-    flex-direction: column; /* Switch to column layout */
+  .personal_section_bottom {
+    flex-direction:column-reverse ; /* Switch to column layout */
     align-items: center; /* Center items horizontally */
     gap: 30px; /* Adjust spacing for smaller screens */
   }
@@ -332,18 +349,32 @@ a {
   .text {
     text-align: left;
     margin: 20px; /* Reset any margin */
+    width: 400px;
   }
 }
 
-.personal_section img {
-  width: 300px;
-  height: 300px;
+.personal_section_top img {
+  width: 400px;
+  height: 200px;
 }
 
 @media (max-width: 768px) {
-  .personal_section img {
-    width: 350px;
-    height: 300px;
+  .personal_section_top img {
+    width: 400px;
+    height: 200px;
+    margin-left: 0;
+  }
+}
+
+.personal_section_bottom img {
+  width: 400px;
+  height: 200px;
+}
+
+@media (max-width: 768px) {
+  .personal_section_bottom img {
+    width: 400px;
+    height: 200px;
     margin-left: 0;
   }
 }
