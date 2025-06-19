@@ -331,7 +331,7 @@ a {
     flex-direction: column; /* Switch to column layout */
     align-items: center; /* Center items horizontally */
     gap: 30px; /* Adjust spacing for smaller screens */
-    padding-bottom: 20px;;
+    padding: 20px;
   }
 }
 
@@ -347,6 +347,7 @@ a {
     flex-direction:column-reverse ; /* Switch to column layout */
     align-items: center; /* Center items horizontally */
     gap: 30px; /* Adjust spacing for smaller screens */
+    padding: 20px;
   }
 }
 
