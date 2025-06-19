@@ -62,7 +62,7 @@ a {
   top: 0;
   left: 0;
   z-index: 1000; /* Ensure it stays on top */
-  padding: 20px 0;
+  padding: 20px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -157,6 +157,7 @@ a {
 .content p {
   line-height: 1.6;
   margin-bottom: 80px;
+  padding: 20px;
 }
 .company_logos {
   margin: 0 auto;
@@ -352,7 +353,6 @@ a {
 @media (max-width: 768px) {
   .text {
     text-align: left;
-    margin: 20px; /* Reset any margin */
     width: 100%;
     max-width: 400px;
   }
