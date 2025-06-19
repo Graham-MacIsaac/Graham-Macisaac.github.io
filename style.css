@@ -29,6 +29,10 @@ html {
   scroll-behavior: smooth; /* Smooth scrolling */
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   max-width: 800px;
   margin: 0 auto;
@@ -349,31 +353,44 @@ a {
   .text {
     text-align: left;
     margin: 20px; /* Reset any margin */
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
   }
 }
 
 .personal_section_top img {
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   height: 200px;
+}
+
+.personal_section_top >* {
+  flex: 1;
+}
+
+.personal_section_bottom >* {
+  flex: 1;
 }
 
 @media (max-width: 768px) {
   .personal_section_top img {
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     height: 200px;
     margin-left: 0;
   }
 }
 
 .personal_section_bottom img {
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   height: 200px;
 }
 
 @media (max-width: 768px) {
   .personal_section_bottom img {
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     height: 200px;
     margin-left: 0;
   }
@@ -383,6 +400,8 @@ a {
   display: flex;
   flex-direction: column;
   text-align: center;
+  width: 100%;
+  max-width: 400px;
   margin-top: 200px;
   margin-bottom: 25px;
 }
