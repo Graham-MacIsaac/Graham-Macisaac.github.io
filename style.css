@@ -76,7 +76,8 @@ img {
   justify-content: right;
   font-weight: 300;
   z-index: 1000; /* Keep it above other content */
-  width: 90%;
+  width: 100%;
+  max-width: 1100px;
   gap: 1rem; /* Add spacing between links */
 }
 
@@ -99,14 +100,6 @@ img {
 .navbar img {
   height: 20px;
   width: 20px;
-}
-
-.hero {
-  display: flex;
-  margin-top: 200px;
-  margin-bottom: 200px;
-  justify-content: flex-start;
-  gap: 20px;
 }
 
 .hero {
@@ -151,7 +144,6 @@ img {
 .content p {
   line-height: 1.6;
   margin-bottom: 80px;
-  padding: 20px;
 }
 
 .content a{
@@ -174,6 +166,21 @@ img {
     align-items: center; /* Center items horizontally */
     gap: 30px; /* Adjust spacing for smaller screens */
   }
+}
+
+.contact_button{
+  width: 150px;
+  color: var(--black);
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: var(--h4);
+}
+
+.contact_button:hover {
+  color: var(--orange);
+  border: 2px solid var(--orange);
 }
 
 .case_study_container {
@@ -295,6 +302,7 @@ img {
   box-sizing: border-box; /* Include padding and border in width calculations */
   padding-left: 30px;
   padding-right: 30px;
+  align-content: space-between;
   flex-direction: column;
   justify-content:center;
   align-items:left;
