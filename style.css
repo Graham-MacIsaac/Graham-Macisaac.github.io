@@ -8,6 +8,7 @@
   --green: #84A86C;
   --purple: #A87094;
   --blue: #81C8E9;
+  --lilac: #cfb6e6;
   --main: "Nebula Sans", serif;
   --heading: "Nebula Sans", serif;
   --mono: "Nebula Sans", serif;
@@ -296,6 +297,25 @@ img {
   }
 }
 
+.case_study_img_box_lilac {
+  display: flex;
+  height: 400px;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--lilac);
+}
+
+@media (max-width: 768px) {
+  .case_study_img_box_lilac {
+    display: flex;
+    height: 400px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--lilac);
+  }
+}
 .case_study_text{
   display: flex;
   width: 50%;
@@ -416,7 +436,7 @@ img {
 }
 
 .icon {
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .socials a {
