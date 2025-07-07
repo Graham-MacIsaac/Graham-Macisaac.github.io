@@ -4,6 +4,7 @@
   --gray: #F2F2F2;
   --black: #2a2929;
   --orange: #ff5c27;
+  --darkorange: #be684c;
   --pink: #D97689;
   --green: #84A86C;
   --purple: #A87094;
@@ -316,6 +317,27 @@ img {
     background-color: var(--lilac);
   }
 }
+
+.case_study_img_box_darkorange {
+  display: flex;
+  height: 400px;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--darkorange);
+}
+
+@media (max-width: 768px) {
+  .case_study_img_box_darkorange {
+    display: flex;
+    height: 400px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--darkorange);
+  }
+}
+
 .case_study_text{
   display: flex;
   width: 50%;
