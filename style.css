@@ -114,11 +114,10 @@ p {
   display: flex; /* Align links horizontally */
   justify-content: right;
   font-weight: 300;
-  gap: 400px;
   z-index: 1000; /* Keep it above other content */
   width: 100%;
-  max-width: 1200px;
   column-gap: 200px;
+  margin-right: 5%;
   gap: 1rem; /* Add spacing between links */
 }
 
@@ -131,6 +130,7 @@ p {
 .navbar a {
   text-decoration: none; /* Remove underline */
   color: #333; /* Link color */
+  margin-left: 10px;
 }
 
 a {
@@ -300,7 +300,6 @@ a:hover {
 
 .case_study_img_box_tan {
   display: flex;
-  height: 500px;
   width: 50%;
   justify-content: center;
   align-items: center;
@@ -310,17 +309,17 @@ a:hover {
 @media (max-width: 768px) {
   .case_study_img_box_tan {
     display: flex;
-    height: 400px;
     width: 90%;
     justify-content: center;
     align-items: center;
     background-color: var(--tan);
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 
 .case_study_img_box_pink {
   display: flex;
-  height: 500px;
   width: 50%;
   justify-content: center;
   align-items: center;
@@ -330,17 +329,17 @@ a:hover {
 @media (max-width: 768px) {
   .case_study_img_box_pink {
     display: flex;
-    height: 400px;
     width: 90%;
     justify-content: center;
     align-items: center;
     background-color: var(--pink);
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 
 .case_study_img_box_green {
   display: flex;
-  height: 500px;
   width: 50%;
   justify-content: center;
   align-items: center;
@@ -350,17 +349,17 @@ a:hover {
 @media (max-width: 768px) {
   .case_study_img_box_green {
     display: flex;
-    height: 400px;
     width: 90%;
     justify-content: center;
     align-items: center;
     background-color: var(--green);
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 
 .case_study_img_box_purple {
   display: flex;
-  height: 500px;
   width: 50%;
   justify-content: center;
   align-items: center;
@@ -370,17 +369,17 @@ a:hover {
 @media (max-width: 768px) {
   .case_study_img_box_purple {
     display: flex;
-    height: 400px;
     width: 90%;
     justify-content: center;
     align-items: center;
     background-color: var(--purple);
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 
 .case_study_img_box_blue {
   display: flex;
-  height: 500px;
   width: 50%;
   justify-content: center;
   align-items: center;
@@ -390,17 +389,17 @@ a:hover {
 @media (max-width: 768px) {
   .case_study_img_box_blue {
     display: flex;
-    height: 400px;
     width: 90%;
     justify-content: center;
     align-items: center;
     background-color: var(--blue);
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 
 .case_study_img_box_lilac {
   display: flex;
-  height: 500px;
   width: 50%;
   justify-content: center;
   align-items: center;
@@ -410,17 +409,17 @@ a:hover {
 @media (max-width: 768px) {
   .case_study_img_box_lilac {
     display: flex;
-    height: 400px;
     width: 90%;
     justify-content: center;
     align-items: center;
     background-color: var(--lilac);
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 
 .case_study_img_box_darkorange {
   display: flex;
-  height: 500px;
   width: 50%;
   justify-content: center;
   align-items: center;
@@ -430,11 +429,12 @@ a:hover {
 @media (max-width: 768px) {
   .case_study_img_box_darkorange {
     display: flex;
-    height: 400px;
     width: 90%;
     justify-content: center;
     align-items: center;
     background-color: var(--darkorange);
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 
@@ -444,12 +444,14 @@ a:hover {
   box-sizing: border-box; /* Include padding and border in width calculations */
   padding-left: 30px;
   padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   align-content: space-between;
   flex-direction: column;
   justify-content:center;
   align-items:left;
   background-color: var(--gray);
-  height: 500px;
+  
 }
 
 @media (max-width: 768px) {
