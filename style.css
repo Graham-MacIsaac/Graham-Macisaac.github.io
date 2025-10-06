@@ -154,6 +154,7 @@ a:hover {
 
 .img {
   margin: 0 auto;
+  /*box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);*/
 }
 
 /* Add this media query for mobile devices */
@@ -169,6 +170,7 @@ a:hover {
   .hero img {
     margin-top: 20px;
     margin-left: 0; /* Reset margin to avoid alignment issues */
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.5);
   }
 }
 
